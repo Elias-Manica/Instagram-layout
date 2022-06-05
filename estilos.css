@@ -494,7 +494,11 @@
 @media(max-width: 614px){
     .barraDoTopo{
         width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 2;
     }
+    
     .barraTopo2{
         display: none;
     }
@@ -514,6 +518,8 @@
 
     .story{
         width: 100%;
+        margin-top: 54px;
+        margin-bottom: 0;
     }
 
 
