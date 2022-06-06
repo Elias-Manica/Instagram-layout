@@ -7,14 +7,13 @@
     flex-direction: column;
     align-items: center;
     background-color: #ffff;
-    border-bottom: 1px solid #DBDBDB;
-    border-top: 1px solid #DBDBDB;
 }
 
 .conteudoCorpo{
-    background-color: #DBDBDB;
+    background-color: #FAFAFA;
     display: flex;
     justify-content: center;
+    border-top: 1px solid #DBDBDB;
 }
 
 .barraDoTopo{
@@ -24,8 +23,6 @@
     width: 935px;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #DBDBDB;
-    border-top: 1px solid #DBDBDB;
 }
 
 .barraTopo1{
@@ -51,7 +48,7 @@
 .barraTopo2{
     width: 215px;
     height: 28px;
-    background-color: #DBDBDB;
+    background-color: #FAFAFA;
     border: 1px solid #DBDBDB;
     border-radius: 3px;
 }
@@ -244,7 +241,7 @@
 .post{
     background-color: #ffff;
     width: 614px;
-    height: 749px;
+    height: 762px;
     margin-top: 30px;
     margin-bottom: 60px;
     border: 1px solid #DBDBDB;
@@ -257,7 +254,7 @@
 
 
 .sugestoes{
-    background-color: #DBDBDB;
+    background-color: #FAFAFA;
     width: 293px;
     height: 480px;
     margin-top: 34px;
@@ -270,6 +267,7 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     right: 5px;
     top: 40px;
+    z-index: 3;
 }
 
 .topoDoPost{
@@ -298,7 +296,7 @@
 
 .barraDoPost{
     background-color: #ffff;
-    height: 76px;
+    height: 50px;
 }
 
 .barraDoPostSup{
@@ -378,7 +376,7 @@
 .divisao{
     width: 293px;
     height: 9px;
-    background-color: #DBDBDB;
+    background-color: #FAFAFA;
     margin-top: 11px;
     margin-bottom: 4px;
 }
@@ -520,12 +518,14 @@
         width: 100%;
         margin-top: 54px;
         margin-bottom: 0;
+        background-color: #FAFAFA;
     }
 
 
 
     .post{
         width: 100%;
+        margin-top: 0px;
     }
 
     .fotoDoPost img{
@@ -539,6 +539,7 @@
         position: fixed;
         bottom: 0;
         left: 0;
+        background-color: #FFFFFF;
     }
 
 }
