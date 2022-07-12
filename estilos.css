@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+ion-icon {
+  cursor: pointer;
+}
+
 p {
   font-family: "Roboto", sans-serif;
 }
@@ -120,6 +124,7 @@ h5 {
 
 .posicao img {
   position: absolute;
+  cursor: pointer;
 }
 
 .posicao p {
@@ -127,6 +132,7 @@ h5 {
   font-style: normal;
   font-size: 16px;
   color: #262626;
+  cursor: pointer;
 }
 
 .nome1 {
@@ -273,10 +279,6 @@ h5 {
   border-radius: 3px;
 }
 
-.ultimo {
-  margin-bottom: 114px;
-}
-
 .sugestoes {
   background-color: #fafafa;
   width: 293px;
@@ -363,6 +365,7 @@ h5 {
   border-radius: 16px;
   margin-left: 17px;
   margin-right: 15px;
+  cursor: pointer;
 }
 
 .nomeFoto ion-icon {
@@ -385,12 +388,14 @@ h5 {
   border-radius: 28px;
   margin-left: 3px;
   margin-top: 23px;
+  cursor: pointer;
 }
 
 .nome {
   margin-top: 25px;
   margin-left: 17px;
   font-size: 14px;
+  cursor: pointer;
 }
 
 .nome h1 {
@@ -424,6 +429,7 @@ h5 {
 .texto p {
   color: #262626;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .seguir {
@@ -448,6 +454,7 @@ h5 {
   font-size: 12px;
   position: absolute;
   right: 0px;
+  cursor: pointer;
 }
 
 .indicacao {
