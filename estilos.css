@@ -326,6 +326,7 @@ h5 {
 
 .barraDoPostInf {
   display: flex;
+  align-items: center;
 }
 
 .barraDoPostInf img {
@@ -336,8 +337,12 @@ h5 {
   margin-right: 5px;
 }
 
+.barraDoPostInf p {
+  font-size: 16px;
+}
+
 .barraDoPostInf h1 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -502,13 +507,17 @@ h5 {
   }
 
   .barraDoTopo {
-    width: 95%;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 
 @media (max-width: 614px) {
   .barraDoTopo {
-    width: 95%;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
     position: fixed;
     top: 0;
     z-index: 2;
