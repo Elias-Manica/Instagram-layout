@@ -27,6 +27,11 @@ h5 {
   flex-direction: column;
   align-items: center;
   background-color: #ffff;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  z-index: 3;
 }
 
 .conteudoCorpo {
@@ -93,6 +98,7 @@ h5 {
   width: 935px;
   justify-content: space-between;
   position: relative;
+  margin-top: 45px;
 }
 
 .story {
@@ -563,5 +569,9 @@ h5 {
     bottom: 0;
     left: 0;
     background-color: #ffffff;
+  }
+
+  .feed {
+    margin-top: 0;
   }
 }
