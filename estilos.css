@@ -26,6 +26,10 @@ h5 {
   font-family: "Roboto", sans-serif;
 }
 
+strong {
+  font-weight: bold;
+}
+
 .conteudoTopo {
   display: flex;
   flex-direction: column;
@@ -586,5 +590,9 @@ h5 {
 
   .feed {
     margin-top: 0;
+  }
+
+  video {
+    width: 100%;
   }
 }
